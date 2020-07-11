@@ -8,7 +8,7 @@ import React from 'react'
 import { SWRConfig } from 'swr'
 import { Nav } from '../components/Nav'
 
-axios.defaults.baseURL = 'http://localhost:4001'
+axios.defaults.baseURL = 'http://localhost:3000'
 
 // Create a theme instance.
 export const theme = createMuiTheme({
